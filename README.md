@@ -1,4 +1,4 @@
-# 📌 Proyecto de Pruebas de Software
+Proyecto de Pruebas de Software
 
 Pruebas de Caja Blanca, Caja Negra y Cobertura con pytest y coverage.py
 
@@ -9,9 +9,8 @@ Este proyecto implementa pruebas de software utilizando técnicas de
 El objetivo es validar el correcto funcionamiento de dos funciones
 principales incluidas en `validaciones.py`.
 
-------------------------------------------------------------------------
 
-## 🧪 Funciones Evaluadas
+Funciones Evaluadas
 
 ### ✔ validar_contrasena(contra, usuario)
 
@@ -26,9 +25,8 @@ Reglas validadas: - El correo no debe ser nulo. - Debe contener un
 '@'. - El usuario (antes de @) debe tener más de 5 caracteres. - El
 dominio debe contener al menos un punto (ej. `.com`).
 
-------------------------------------------------------------------------
 
-## 🧰 Tecnologías utilizadas
+Tecnologías utilizadas
 
 -   **Python 3**
 -   **pytest**
@@ -36,9 +34,8 @@ dominio debe contener al menos un punto (ej. `.com`).
 -   **pytest-cov**
 -   **Virtual Environment (.venv)**
 
-------------------------------------------------------------------------
 
-## 📁 Estructura del proyecto
+Estructura del proyecto
 
     Proyecto/
     ├── .venv/
@@ -48,17 +45,16 @@ dominio debe contener al menos un punto (ej. `.com`).
     │   └── test_validaciones_caja_negra.py
     └── README.md
 
-------------------------------------------------------------------------
 
-## ⚙️ Instalación
+Instalación
 
-### 1️⃣ Crear entorno virtual
+Crear entorno virtual
 
 ``` bash
 python -m venv .venv
 ```
 
-### 2️⃣ Activar entorno virtual
+ Activar entorno virtual
 
 **Windows:**
 
@@ -66,13 +62,12 @@ python -m venv .venv
 .venv\Scriptsctivate
 ```
 
-### 3️⃣ Instalar dependencias
+Instalar dependencias
 
 ``` bash
 pip install pytest coverage pytest-cov
 ```
 
-------------------------------------------------------------------------
 
 ## ▶️ Ejecución de Pruebas
 
@@ -82,9 +77,8 @@ Para ejecutar todas las pruebas:
 pytest -v
 ```
 
-------------------------------------------------------------------------
 
-## 📊 Cobertura de Código
+Cobertura de Código
 
 Generar cobertura:
 
@@ -104,9 +98,7 @@ Abrir reporte:
 start htmlcov/index.html
 ```
 
-------------------------------------------------------------------------
-
-## 📈 Resultados
+ Resultados
 
 El proyecto alcanzó:
 
@@ -117,9 +109,8 @@ El proyecto alcanzó:
 
 Superando ampliamente el **mínimo requerido del 85%**.
 
-------------------------------------------------------------------------
 
-## 📝 Conclusiones
+Conclusiones
 
 Las pruebas diseñadas cubren completamente todas las rutas lógicas de
 las funciones evaluadas, garantizando su correcto funcionamiento ante
@@ -128,9 +119,4 @@ El uso de pytest y coverage permitió validar automáticamente el
 comportamiento y generar un análisis detallado de la cobertura del
 código.
 
-------------------------------------------------------------------------
 
-## 👨‍💻 Autor
-
-Proyecto desarrollado por **TU NOMBRE AQUÍ**\
-Materia: *Pruebas de Software*
